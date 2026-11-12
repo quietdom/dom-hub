@@ -1,8 +1,8 @@
 -- dom hub - loader
 local SOURCES = {
-    "https://raw.githubusercontent.com/quietdom/dom-hub/main/dom_hub.lua",
     "https://cdn.jsdelivr.net/gh/quietdom/dom-hub@main/dom_hub.lua",
-    "https://raw.githubusercontent.com/quietdom/dom-hub/main/dom_hub.lua?t=" .. tostring(os.time()),
+    "https://raw.githubusercontent.com/quietdom/dom-hub/main/dom_hub.lua",
+    "https://cdn.jsdelivr.net/gh/quietdom/dom-hub@main/dom_hub.lua?t=" .. tostring(os.time()),
 }
 
 local src
